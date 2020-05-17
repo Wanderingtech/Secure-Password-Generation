@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Secure</title>
+  </head>
+  <body>
+      <h1>Create Your Secure Password</h1>
+      <!--Changed class and ID to password-->
+    <div class="PW">
+      <form id="PW-form" method="POST">
+        <label for="PW-text">Add a Character:</label>
+        <input type="text" placeholder="Add a Character" name="PW-text" id="PW-text" />
+      </form>
+      <p>Character Count: <span id="Character-count">0</span></p>
+      <ul id="Character-list"></ul>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

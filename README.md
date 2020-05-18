@@ -18,7 +18,7 @@ If user inputs something other than a number, there needs to be a response to en
 
 ## Technologies
 Basic HTML, CSS, and my first encounter creating a JavaScript file.
-Major shoutout to my classmate Jo Mengis who saw a small change that made the difference between my code running and not.
+Major shoutout to my classmate Joe Mengis who saw a small change that made the difference between my code running and not.
 
 ![webpage example](./assets/passwordpreview.png)
 ![JavaScriptexample](./assets/jspreview.png)

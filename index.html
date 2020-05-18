@@ -5,16 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Secure</title>
   </head>
   <body>
       <h1>Create Your Secure Password</h1>
       
-    <div class="PW">
-        <button id="button" type="submit">Create Password</button>
-
+    <div class="container">
+      <form id="PasswordForm" class="form">
+        <textarea
+        readonly
+        id="password"
+        placeholder="Your Secure Password"
+        aria-label="Generated Password"
+      ></textarea>
+      </form>
     </div>
-    <script src="./script.js"></script>
+    <div class="container-footer">
+      <button id="generate" class="btn">Generate Password</button>
+    </div>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
